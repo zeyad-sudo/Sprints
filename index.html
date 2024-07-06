@@ -3,22 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <title> movie database</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
+        <header class="main-header">
             <h1>Welcome to movie data base</h1>
         </header>
-        <section>
-            <img height="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxueXiLYxbDpKZNarI68FXm_8HlXiHhJlrgg&s" alt="">
+        <section class="info-section">
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxueXiLYxbDpKZNarI68FXm_8HlXiHhJlrgg&s" alt="" class="cover-image">
             <h2>discover popular movies</h2>
             <p>
                 explore our collection of timeliess </br>
                 <i>find movies that captive and inspire</i>
             </p>
-            <p align="right">movie database is your number 1</p>
+            <p >movie database is your number 1</p>
         </section>
-        <section>
-            <table border="1">
+        <section class="movie-section">
+            <table  class="movie-table">
                 <tr> 
                     <th>title</th>
                     <th>director</th>
@@ -39,7 +40,7 @@
                 </tr>
             </table>
         </section>
-        <section>
+        <section class="topmovies-section">
             <h2> top 5 movies</h2>
             <ol>
                 <li ><strong>the godfather</strong> </li>
@@ -49,7 +50,7 @@
                 <li>lol</li>
             </ol>
         </section>
-        <section>
+        <section class="form-section">
             <h2> enter your fav movie</h2>
             <p> help us build our community by sharing you fav movie</p>
             <form action="/submit">
