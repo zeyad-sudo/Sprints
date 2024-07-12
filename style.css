@@ -9,8 +9,29 @@ body{
     color: #f5f5f5;
     padding: 30px;
     text-align: center;
+    z-index: 1000;
 }
-
+.main-header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none; 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 15px;
+    li{
+        margin: 0 15px;
+    }
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
 .info-section,.movie-section,.topmovies-section,.form-section{
     margin: 20px;
     padding: 40px;
@@ -23,7 +44,7 @@ body{
     }
 }
 .info-section{
-    text-align: center;
+    margin-top: 100px;
 }
 .cover-image{
     width: 100%;
